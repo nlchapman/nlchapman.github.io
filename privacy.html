@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css" integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+        <header>
+        <nav class=" hightlightNav navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow" style="background-color:#00072e">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Relative Games.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="privacy.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fab fa-twitter-square" style="font-size:25px;" href="https://twitter.com/relativegames_"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fab fa-tumblr-square" style="font-size:25px;" href="http://relativegames.tumblr.com/"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<style>
+    .parallax1 {
+        background-image: url("../images/WebsitePicOne.png");
+        height: 900px;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 2px 2px #000000;
+    }
+    .section1 {
+        height: 1000px;
+        color: white;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 2px 2px #000000;
+    }
+    .sectionHeaders {
+        font-size: 75px;
+        text-shadow: 2px 2px #000000;
+    }
+</style>
+
+<div class="container-no-margins bg-info parallax1">
+    <h1 class="text-center" style="font-size:130px; padding-top:350px;">A little about me.</h1>
+</div>
+
+<section class="bg-info section1 text-center">
+    <p style="text-shadow: 2px 2px #000000">
+        <br />
+        <b class="sectionHeaders">I am Relative Games!</b>
+        <br />
+        <br />
+        <i style="font-size:25px;">Or rather I created Relative games.</i> My name's Nick and I have a passion for games and coding.
+        <br />
+        I'm constantly trying to learn and create cool stuff,
+        so if you like cool stuff or what I'm doing
+        <br />
+        feel free to get in touch with me!
+        <br />
+        <br />
+        <ul>
+            <li style="display:inline"><a class="text-white fab fa-twitter-square" style="font-size:75px; padding: 5px 15px 0 0" href="https://twitter.com/relativegames_"></a></li>
+            <li style="display:inline"><a class="text-white fab fa-tumblr-square" style="font-size:75px; padding: 5px 15px 0 0" href="http://relativegames.tumblr.com/"></a></li>
+            <li style="display:inline"> <a class="fas fa-envelope-square text-white" style="font-size:75px; padding:5px 15px 0 0"></a><small style="font-size:10px">E-mail coming soon!</small></li>
+         </ul>
+        <br />
+        <br />
+        <br />
+        <div style="font-size:45px; text-shadow: 2px 2px #000000"><a style="color:lightskyblue" asp-action="Privacy">Contact me</a> if you have any questions!</div>
+        <b></b>
+
+    </p>
+</section>
+
+    <footer class="footer text-muted" style="background-color:#00072e">
+        <div class="container-fluid text-white">
+            &copy; 2019 - Relative Games - <a href=""">About</a>
+        </div>
+    </footer>
+</body>
+</html>
