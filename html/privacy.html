@@ -1,51 +1,244 @@
 <!DOCTYPE html>
 <style>
-    .parallax1 {
-        background-image: url("../images/WebsitePicOne.png");
-        min-height: 900px;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+    .parallax1{
+        background-image:url("../nlchapman.github.io/images/WebsitePicOne.png");
+        height:500px;
+    }
+    .parallax2 {
+        background-image: url("../nlchapman.github.io/images/WebsitePicTwo.png");
+        height: 700px;
+    }
+    .section1{
+        height:auto;
+        color:white;
+        font-size:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .section2 {
+        height: auto;
         color: white;
-        font-size: 35px;
+        font-size: 20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .h1Size {
+        text-shadow: 2px 2px #000000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:65px;
+        padding-top: 100px;
+    }
+    .parallax1,.parallax2{
+        position:relative;
+        background-size: contain;
+        background-position:top;
+        background-size:1920px 1080px;
+        background-repeat:no-repeat;
+    }
+    .sectionHeaders {
+        font-size: 40px;
         text-shadow: 2px 2px #000000;
     }
-    .section1 {
-        min-height: 1000px;
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    .parallax1{
+        background-image:url("../nlchapman.github.io/images/WebsitePicOne.png");
+        height:500px;
+    }
+    .parallax2 {
+        background-image: url("../nlchapman.github.io/images/WebsitePicTwo.png");
+        height: 700px;
+    }
+    .section1{
+        height:auto;
+        color:white;
+        font-size:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .section2 {
+        height: auto;
+        color: white;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .h1Size {
+        text-shadow: 2px 2px #000000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:65px;
+        padding-top: 100px;
+    }
+    .parallax1,.parallax2{
+        position:relative;
+        background-size: contain;
+        background-position:top;
+        background-size:1920px 1080px;
+        background-repeat:no-repeat;
+    }
+    .sectionHeaders {
+        font-size: 40px;
+        text-shadow: 2px 2px #000000;
+    }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    .parallax1{
+        background-image:url("../nlchapman.github.io/images/WebsitePicOne.png");
+        height:500px;
+    }
+    .parallax2 {
+        background-image: url("../nlchapman.github.io/images/WebsitePicTwo.png");
+        height: 700px;
+    }
+    .section1{
+        height:auto;
+        color:white;
+        font-size:20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .section2 {
+        height: auto;
+        color: white;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .h1Size {
+        text-shadow: 2px 2px #000000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:65px;
+        padding-top: 100px;
+    }
+    .parallax1,.parallax2{
+        position:relative;
+        background-size: contain;
+        background-position:top;
+        background-size:1920px 1080px;
+        background-repeat:no-repeat;
+    }
+    .sectionHeaders {
+        font-size: 40px;
+        text-shadow: 2px 2px #000000;
+    }       
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 1000px) {
+    .parallax1{
+        background-image:url("../images/WebsitePicOne.png");
+        height:900px;
+    }
+    .parallax2 {
+        background-image: url("../images/WebsitePicTwo.png");
+        height: 900px;
+    }
+    .section1{
+        height:1000px;
+        color:white;
+        font-size:35px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .section2 {
+        height: auto;
         color: white;
         font-size: 35px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-shadow: 2px 2px #000000;
+    }
+    .h1Size {
         text-shadow: 2px 2px #000000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:150px;
+        padding-top:300px;
+    }
+    .parallax1,.parallax2{
+        position:relative;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
     }
     .sectionHeaders {
         font-size: 75px;
         text-shadow: 2px 2px #000000;
     }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    .parallax1{
+        background-image:url("../images/WebsitePicOne.png");
+        height:900px;
+    }
+    .parallax2 {
+        background-image: url("../images/WebsitePicTwo.png");
+        height: 900px;
+    }
+    .section1{
+        height:auto;
+        color:white;
+        font-size:35px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 2px 2px #000000;
+    }
+    .section2 {
+        height: 1000px;
+        color: white;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 2px 2px #000000;
+    }
+    .h1Size{
+            text-shadow: 2px 2px #000000;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:150px;
+            padding-top:300px;
+        }
+    .parallax1,.parallax2{
+        position:relative;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+    }
+    .sectionHeaders {
+        font-size: 75px;
+        text-shadow: 2px 2px #000000;
+    }
+
+    }
 </style>
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome</title>
-
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css" integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
               crossorigin="anonymous"
               integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" />
     <link rel="stylesheet" href="~/css/site.css" />
+      <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css" integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/css/site.css" />
+        <script src="../lib/jquery/dist/jquery.js"></script>
+        <script src="../lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
 <body>
         <header>
-        <nav class=" hightlightNav navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow" style="background-color:#00072e">
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color:#00072e">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="../index.html">Relative Games.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -72,12 +265,11 @@
         </nav>
     </header>
     
-<div class="container-no-margins bg-info parallax1">
-    <h1 class="text-center" style="font-size:130px; padding-top:350px;">A little about me.</h1>
+<div class="bg-info parallax1">
+    <h1 class="text-center text-white h1Size">A little about me.</h1>
 </div>
 
 <section class="bg-info section1 text-center">
-    <p style="text-shadow: 2px 2px #000000">
         <br />
         <b class="sectionHeaders">I am Relative Games!</b>
         <br />
@@ -98,10 +290,7 @@
         <br />
         <br />
         <br />
-        <div style="font-size:45px; text-shadow: 2px 2px #000000"><a style="color:lightskyblue" asp-action="Privacy">Contact me</a> if you have any questions!</div>
-        <b></b>
-
-    </p>
+        <div style="font-size:45px; text-shadow: 2px 2px #000000"><a style="color:lightskyblue" >Contact me if you have any questions!</div>
 </section>
 
     <footer class="footer text-muted" style="background-color:#00072e">
